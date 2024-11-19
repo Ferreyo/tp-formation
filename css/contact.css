@@ -1,0 +1,112 @@
+.nav_contact{
+    border-bottom: 8px solid #455951;
+}
+
+main{
+    margin: 4% 15%;
+}
+
+.nav_contact{
+    border-bottom: 8px solid #455951;
+}
+
+main div p{
+    padding-bottom: 30px;
+}
+
+.article1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 3%;
+}
+
+.article1 div{
+    width: 600px;
+}
+
+.article1 div h3{
+    padding-bottom: 30px;
+}
+
+.article2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    margin: 3%;
+}
+
+.article2 div{
+    width: 600px;
+}
+
+main div h3{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin:  50px 0;   
+}
+
+form div label{
+    display: inline-block;
+    width: 220px;
+    padding: 15px 0;
+}
+
+form div select{
+    width: 184px;
+    padding: 10px 0;
+    border: 2px solid #455951;
+    box-shadow: 2px 2px 5px 0px rgba(69,89,81,0.53);
+}
+
+form div input{
+    width: 180px;
+    padding: 10px 0;
+    border: 2px solid #455951;
+    box-shadow: 2px 2px 5px 0px rgba(69,89,81,0.53);
+}
+
+form div textarea{
+    width: 180px;
+    border: 2px solid #455951;
+    box-shadow: 2px 2px 5px 0px rgba(69,89,81,0.53);
+}
+
+form div label:hover{
+    color: rgb(87, 140, 201);
+}
+
+form div label:hover::after{
+    padding-left: 10px;
+    content: "\27AD" "\27AD";
+}
+
+#submit{
+    background-color: #455951;
+    color: white;
+    border: none;
+    border-radius: 23px;
+    width: 90px;
+    margin: 10px 20px;
+    transition: 1.1s 0.5s; 
+}
+
+#reset{
+    background-color: #455951;
+    color: white;
+    border: none;
+    border-radius: 23px;
+    width: 119px;
+}
+
+#submit:hover{
+    border: 1px solid black;
+    background: linear-gradient(90deg, rgba(66,127,195,1) 0%, rgba(134,194,221,1) 100%);  
+}
